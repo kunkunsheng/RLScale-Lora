@@ -25,7 +25,7 @@ cd RLScale-Lora
 pip install -r requirements.txt
 
 ```
-## train music Attribute
+## Train music Attribute
 
 Before training music attributes, you need to create a dataset of contrasting musical attributes—that is, one set of examples with the attribute and another without it to represent the musical concept. For ease of training, you can convert these audio samples into Mel‐spectrogram features and save them separately.
 Then, you can run `src/train.py` and `src/train_PPO.py` to train the control of the music attribute intensity.
