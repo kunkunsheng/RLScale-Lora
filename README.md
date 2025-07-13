@@ -2,6 +2,8 @@
 
 ## 🗃️ Abstract
 The rapid development of music diffusion models has provided diverse paths for music creation transformations. However, existing methods still lack continuous strength regulation over stylistic attributes—specifically, they cannot achieve scalable adjustment of intensity (e.g., smooth transitions between "gentle" and "intense" jazz) while preserving spectral-temporal coherence. To address this, we propose RLScale-LoRA, a two-stage finetuning framework built on a structurally modified low-rank adaptation (LoRA) architecture with scale layers. In Stage 1, we finetune the modified LoRA to specialize in capturing attribute-aware latent spaces on unseen/seen music data. Stage 2 trains lightweight scale layers via proximal policy optimization (PPO), where reward functions enforce intermediate spectral-temporal state stability. Therefore, our RLScale-LoRA achieves precise, continuous music attribute transformations.
+<img width="1699" height="495" alt="image" src="https://github.com/user-attachments/assets/e752c13e-e41b-40fb-b8ae-69e9b1e8a005" />
+
 
 ## 🗃️ Project Structure
 ```plaintext
